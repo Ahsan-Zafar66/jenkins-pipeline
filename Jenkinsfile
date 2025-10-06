@@ -13,7 +13,9 @@ pipeline {
 ls -l
 
 docker --version
-git --version'''
+git --version
+
+ls -la'''
       }
     }
 
