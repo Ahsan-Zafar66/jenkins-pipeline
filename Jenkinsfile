@@ -7,5 +7,12 @@ pipeline {
       }
     }
 
+    stage('checking files') {
+      steps {
+        sh '''pwd
+ls -l'''
+      }
+    }
+
   }
 }
