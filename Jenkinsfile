@@ -27,7 +27,7 @@ docker push ahsandc/jenkins-pipeline-test:$BUILD_NUMBER
 echo "All done!"
 
 
-docker run -d -p 6000:5000 ahsandc/jenkins-pipeline-test:$BUILD_NUMBER
+docker run -d -p 3200:5000 ahsandc/jenkins-pipeline-test:$BUILD_NUMBER
 
 exit 0'''
       }
