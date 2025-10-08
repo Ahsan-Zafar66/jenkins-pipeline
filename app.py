@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return jsonify({"message": "Changing from github and seeing if pipeline triggers automatically. Trying again"})
+    return jsonify({"message": "Changing from github and seeing if pipeline triggers automatically. change 5"})
 
 @app.route('/health')
 def health():
