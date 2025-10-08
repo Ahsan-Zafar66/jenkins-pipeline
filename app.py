@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return jsonify({"message": "Hello from CI/CD sample app and now we are testing that blue ocean is triggered when we change github code and webhook added as well"})
+    return jsonify({"message": "Changing from github and seeing if pipeline triggers automatically"})
 
 @app.route('/health')
 def health():
