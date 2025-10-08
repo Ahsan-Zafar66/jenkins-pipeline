@@ -13,9 +13,7 @@ pipeline {
 pwd
 ls -l
 
-echo "Docker and Git versions:"
-docker --version
-git --version
+
 
 echo "Building Docker image..."
 docker build -t ahsandc/jenkins-pipeline-test:$BUILD_NUMBER .
