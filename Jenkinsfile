@@ -25,7 +25,11 @@ echo "Pushing image to Docker Hub..."
 docker push ahsandc/jenkins-pipeline-test:$BUILD_NUMBER
 
 echo "All done!"
-'''
+
+
+docker run -d -p 6000:5000 ahsandc/jenkins-pipeline-test:$BUILD_NUMBER
+
+exit 0'''
       }
     }
 
